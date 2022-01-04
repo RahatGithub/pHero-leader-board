@@ -25,7 +25,7 @@ section{
 
 .top-players, .blogs, .courses{
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 40px;
 }
 
 .top-players, .courses{
@@ -48,7 +48,12 @@ section{
 
 .thumbnail img{
     height: 100px;
-    margin-right: 10px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover{
+    transform: scale(1.1);
 }
 
 .blog-info p, .course-detail p{
@@ -69,7 +74,13 @@ section{
 
 .course img{
     height: 100px;
+    transition: transform 0.3s ease;
 }
+
+.course img:hover{
+    transform: scale(1.1);
+}
+
 
 .filled{
     color: goldenrod;
@@ -84,7 +95,7 @@ section{
 }
 
 .duration{
-    color: red;
+    color: rgb(216, 50, 50);
     font-weight: 600;
     font-size: 0.9em;
     background-color: rgba(238, 113, 113, 0.527);
