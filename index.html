@@ -1,48 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Leader Board</title>
 </head>
+
 <body>
-    
+
     <header>
 
     </header>
-    
+
     <main>
 
-        <h2>Top Players</h2>
-        <section class="top-players">
-            <div class="player">
-                <img src="images/players/player-1.png" alt="">
-                <h3>Mushtaq Ahmed</h3>
+        <section>
+            <h2 class="section-title">Top Players</h2>
+            <div class="top-players">
+                <div class="player">
+                    <img src="images/players/player-1.png" alt="">
+                    <h3>Mushtaq Ahmed</h3>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-2.png" alt="">
+                    <h3>Zillur Rahman</h3>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-3.png" alt="">
+                    <h3>Saifur Rahman</h3>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-4.png" alt="">
+                    <h3>Billal Hussain</h3>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-5.png" alt="">
+                    <h3>Muhammad Ali</h3>
+                </div>
+                <div class="player">
+                    <img src="images/players/player-6.png" alt="">
+                    <h3>Junaed Siddiqui</h3>
+                </div>
             </div>
-            <div class="player">
-                <img src="images/players/player-2.png" alt="">
-                <h3>Zillur Rahman</h3>
+        </section>
+
+        <section>
+            <h2 class="section-title">Top Blogs</h2>
+            <div class="blogs">
+                <article class="blog">
+                    <div class="thumbnail">
+                        <img src="images/blogs/blog-1.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3>13 of My Favorite UI/UX Goodies</h3>
+                        <p>By <a href="#">Danny Sabio</a></p>
+                    </div>
+                </article>
+                <article class="blog">
+                    <div class="thumbnail">
+                        <img src="images/blogs/blog-2.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3>UI Cheat Sheet: List VS Grid</h3>
+                        <p>By <a href="#">Paulo Coelho</a></p>
+                    </div>
+                </article>
+                <article class="blog">
+                    <div class="thumbnail">
+                        <img src="images/blogs/blog-3.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3>7 Typography Tips For Interface Design</h3>
+                        <p>By <a href="#">Sadio Mane</a></p>
+                    </div>
+                </article>
+                <article class="blog">
+                    <div class="thumbnail">
+                        <img src="images/blogs/blog-4.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h3>Your Logo Is Copied</h3>
+                        <p>By <a href="#">Abdullah Al Galib</a></p>
+                    </div>
+                </article>
             </div>
-            <div class="player">
-                <img src="images/players/player-3.png" alt="">
-                <h3>Saifur Rahman</h3>
+        </section>
+
+        <section class="separate-section">
+            <h2 class="section-title">Latest Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/courses/course-1.png" alt="">
+                    <div class="course-detail">
+                        <h3>React Complete Guide With Road map 2022</h3>
+                        <p><a href="#">Daniel Brownee</a></p>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star unfilled"></i>
+                            </div>
+                            <div class="duration">
+                                <i class="far fa-clock"></i>
+                                <span class="time">2:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-2.png" alt="">
+                    <div class="course-detail">
+                        <h3>Powerpoint 2022 Master Course</h3>
+                        <p><a href="#">Robert Kiyosaki</a></p>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star unfilled"></i>
+                                <i class="fas fa-star unfilled"></i>
+                            </div>
+                            <div class="duration">
+                                <i class="far fa-clock"></i>
+                                <span class="time">1:15 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-3.png" alt="">
+                    <div class="course-detail">
+                        <h3>Complete JavaScript Course 2022</h3>
+                        <p><a href="#">Arnold Kaprium</a></p>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star-half-alt filled"></i>
+                            </div>
+                            <div class="duration">
+                                <i class="far fa-clock"></i>
+                                <span class="time">5:00 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="player">
-                <img src="images/players/player-4.png" alt="">
-                <h3>Billal Hussain</h3>
-            </div>
-            <div class="player">
-                <img src="images/players/player-5.png" alt="">
-                <h3>Muhammad Ali</h3>
-            </div>
-            <div class="player">
-                <img src="images/players/player-6.png" alt="">
-                <h3>Junaed Siddiqui</h3>
-            </div>
-        </section>    
+        </section>
+
     </main>
 
 </body>
+
 </html>
